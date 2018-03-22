@@ -5,7 +5,6 @@ def camel(x, y):
     x2 = math.pow(x, 2)
     x4 = math.pow(x, 4)
     y2 = math.pow(y, 2)
-
     return (4.0 - 2.1 * x2 + (x4 / 3.0)) * x2 + x * y + (-4.0 + 4.0 * y2) * y2
 
 
